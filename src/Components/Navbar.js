@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "./Navbar.css";
 
 export default function Navbar() {
-  const [clicked, setClick] = useState(false);
+  const [clicked, setClick] = useState(true);
 
   const handleClick = () => {
     setClick(!clicked);
