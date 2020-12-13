@@ -28,8 +28,8 @@ export default function Navbar() {
         )}
       </header>
 
-      {clicked ? (
-        <div class="menu">
+      {clicked ? null :
+        ( <div class="menu">
           <ul>
             <a href="#">
               <li>LINK ONE</li>
@@ -52,7 +52,7 @@ export default function Navbar() {
             </a>
           </ul>
         </div>
-      ) : null}
+      )}
     </>
   );
 }
